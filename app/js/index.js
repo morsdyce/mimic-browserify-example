@@ -1,7 +1,8 @@
 'use strict';
 
+import 'mimic';
 import React     from 'react';
-import ReactDOM  from 'react-dom';
+import { render }  from 'react-dom';
 
 import Routes    from './Routes';
 
@@ -10,4 +11,4 @@ if ( process.env.NODE_ENV !== 'production' ) {
   window.React = React;
 }
 
-ReactDOM.render(Routes, document.getElementById('app'));
+render(Routes, document.getElementById('app'));
