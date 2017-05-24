@@ -1,5 +1,7 @@
 'use strict';
 
+import PropTypes from 'prop-types';
+
 import React              from 'react';
 
 import CurrentUserActions from './actions/CurrentUserActions';
@@ -8,11 +10,11 @@ import Header             from './components/Header';
 import Footer             from './components/Footer';
 
 const propTypes = {
-  params: React.PropTypes.object,
-  query: React.PropTypes.object,
-  children: React.PropTypes.oneOfType([
-    React.PropTypes.array,
-    React.PropTypes.object
+  params: PropTypes.object,
+  query: PropTypes.object,
+  children: PropTypes.oneOfType([
+    PropTypes.array,
+    PropTypes.object
   ])
 };
 

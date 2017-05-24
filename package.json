@@ -47,10 +47,8 @@
     "jsdom": "^8.0.2",
     "lodash": "^3.10.0",
     "mocha": "^2.3.3",
-    "react": "^0.14.x",
     "react-addons-test-utils": "^0.14.0",
     "react-document-title": "^2.0.1",
-    "react-dom": "^0.14.0",
     "react-router": "^1.0.0-rc1",
     "reflux": "^0.3.0",
     "run-sequence": "^1.1.1",
@@ -67,6 +65,8 @@
     "build": "NODE_ENV=production ./node_modules/.bin/gulp prod"
   },
   "dependencies": {
-    "mimic": "^2.0.2"
+    "mimic": "^2.0.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   }
 }

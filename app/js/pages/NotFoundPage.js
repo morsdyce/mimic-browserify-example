@@ -1,10 +1,12 @@
 'use strict';
 
+import PropTypes from 'prop-types';
+
 import React         from 'react';
 import DocumentTitle from 'react-document-title';
 
 const propTypes = {
-  currentUser: React.PropTypes.object
+  currentUser: PropTypes.object
 };
 
 class NotFoundPage extends React.Component {
